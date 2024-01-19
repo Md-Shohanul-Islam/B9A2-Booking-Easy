@@ -1,0 +1,122 @@
+/* common style  */
+/* font Mulish from google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.color{
+    color:  #131318;
+}
+.t-color{
+    color: #FF5400;
+}
+.btn-1{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* header related styles  */
+header{
+    margin: 50px 135px;
+    width: 1170px;
+    text-align: center;
+}
+/* nav related styles  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.logo{
+    display: flex;
+    gap: 17px;
+}
+nav h3{
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+}
+.menu{
+    display: flex;
+    gap: 44px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 500px;
+}
+header h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin: 0;
+    padding: 105px 287px 0;
+}
+header p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 247px 48px;
+}
+.search{
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    display: inline-flex;
+    gap: 24px;
+    border-radius: 8px;
+    justify-content: center;
+}
+.search input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* our popular tours related styles  */
+.tours{
+    width: 1170px;
+    margin: 100px 135px;
+    gap: 50px;
+    display: flex;
+}
+.popular-tours ul li{
+    margin-bottom: 16px;
+}
+.popular-tours p{
+    margin-bottom: 24px;
+}
