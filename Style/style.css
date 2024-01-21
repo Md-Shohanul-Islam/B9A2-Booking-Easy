@@ -354,6 +354,37 @@ nav h3{
     font-size: 32px;
     font-weight: 800;
 }
+/* footer related styles  */
+footer{
+    max-width: 1440px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo{
+    justify-content: center;
+    padding-top: 110px;
+}
+.footer-logo img{
+    height: 35px;
+    padding-top: 12px;
+}
+#footer-details{
+    margin: 0 285px;
+}
+#footer-details img{
+    padding: 33px 0 50px;
+}
+.f-info{
+    padding: 0 50px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#rights{
+    padding: 50px 0 110px;
+}
+
 
 
 /* responsive media queries  */
@@ -433,25 +464,27 @@ nav h3{
     .video{
         display: none;
     }
-.newsletter-form{
-    width: auto;
-}
-.sub-info{
-    width: 228px;
-}
-.sub-btn{
-    width: 248px;
-}
-.discount .booking-easy{
-    width: 150px;
-    height: 50px;
-    padding: 0;
-    font-size: 15px;
-}
-.dis-save{
-    font-size: 18px;
-}
-
+    .newsletter-form{
+        width: auto;
+    }
+    .sub-info{
+        width: 228px;
+    }
+    .sub-btn{
+        width: 248px;
+    }
+    .discount .booking-easy{
+        width: 150px;
+        height: 50px;
+        padding: 0;
+        font-size: 15px;
+    }
+    .dis-save{
+        font-size: 18px;
+    }
+    #footer-details{
+            margin: 0;
+        }
 }
 @media screen and (min-width: 992px) {
     .nav-option-bar{
