@@ -291,7 +291,22 @@ nav h3{
     color: #5A5A5D;
 }
 
-
+/* perfect place related styles  */
+.perfect-place{
+    max-width: 1170px;
+    margin: 50px 135px;
+    display: flex;
+    gap: 60px;
+}
+.place-title{
+    margin: 0;
+}
+.place-list{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
 
 /* responsive media queries  */
 @media screen and (max-width: 600px) {
@@ -326,7 +341,7 @@ nav h3{
         margin: 0;
         padding-top: 0;
     }
-    .search, .tours, .grid-1, .grid-2, .grid-3{
+    .search, .tours, .grid-1, .grid-2, .grid-3, .perfect-place{
         flex-direction: column;
         /* Flex Direction  */
     }
@@ -365,6 +380,9 @@ nav h3{
         width: auto;
     }
     .deals{
+        display: none;
+    }
+    .video{
         display: none;
     }
 
