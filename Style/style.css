@@ -38,6 +38,11 @@ body{
     font-size: 24px;
     font-weight: 800;
 }
+.price{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
 .description{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
@@ -213,11 +218,10 @@ nav h3{
     align-items: flex-start;
 }
 .why-us-info{
-    width: 573px;
-    height: 284px;
+    width: 530px;
+    height: 255px;
     border-radius: 16px;
-    padding: 32px 55px 32px 32px;
-    gap: 20px;
+    padding: 20px;
 }
 .us-hotels{
     
@@ -234,6 +238,59 @@ nav h3{
     grid-column: span 2;
     justify-self: center;
 }
+
+/* deals & discount related styles  */
+.deals{
+    max-width: 1170px;
+    margin: 50px 135px;
+    text-align: center;
+}
+.deals-title{
+    
+}
+.discount{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 24px 0;
+}
+.discount img{
+    width: 100%;
+}
+.discount .offer{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    transform: translate(-5%, -5%);
+
+}
+.special-discount .offer{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    transform: translate(+5%, -5%);
+}
+.offer{
+    width: 450px;
+    height: 320px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.836);
+    padding: 10px 40px 50px;
+    text-align: start;
+}
+.package{
+    display: flex;
+}
+.package img{
+    width: 24px;
+    height: 24px;
+    padding: 12px 8px 0;
+}
+.deals-info{
+    color: #5A5A5D;
+}
+
 
 
 /* responsive media queries  */
@@ -307,6 +364,10 @@ nav h3{
     .why-us-info{
         width: auto;
     }
+    .deals{
+        display: none;
+    }
+
 
 }
 @media screen and (min-width: 992px) {
