@@ -307,6 +307,35 @@ nav h3{
     font-weight: 700;
     line-height: 22px;
 }
+
+/* unique related styles  */
+.unique{
+    max-width: 1170px;
+    margin: 50px 135px;
+    background-image: url(../Images/pero-kalimero-9BJRGlqoIUk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: auto;
+    height: 300px;
+    position: relative;
+}
+.airplane{
+    position: absolute;
+    animation: airplane 10s linear 0s infinite reverse;
+    bottom: 0;
+    left: -50%;
+    transform: translateX(-50%);
+}
+@keyframes airplane{
+    from{left: 50%;}
+    to{left: -auto;}
+}
+.airplane img{
+    width: 300px;
+    height: auto;
+}
+
 /* newsletter related styles  */
 .newsletter{
     max-width: 1170px;
@@ -484,6 +513,9 @@ footer{
     }
     #footer-details{
             margin: 0;
+        }
+        .airplane img{
+            width: 200px;
         }
 }
 @media screen and (min-width: 992px) {
